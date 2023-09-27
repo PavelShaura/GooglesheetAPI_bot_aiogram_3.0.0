@@ -22,9 +22,9 @@
 
 Создайте файл конфигурации .env в корневом каталоге проекта и укажите следующие переменные окружения:
 
-* TELEGRAM_TOKEN=YOUR_TELEGRAM_BOT_TOKEN
+* TELEGRAM_TOKEN=
 * LOG_FILE_PATH=log_file.ini (Можно таким и оставить. Создастся автоматически в корне проекта при первом запуске бота.)
-* DOC_URL=YOUR_GOOGLE_SHEET_URL
+* DOC_URL=
 
 
 YOUR_TELEGRAM_BOT_TOKEN - Токен вашего Telegram бота. Получите его у BotFather.
@@ -33,7 +33,7 @@ log_file.ini- Имя файла .ini для хранения логов.
 
 YOUR_GOOGLE_SHEET_URL - URL вашей Google таблицы для доступа к данным абонементов.
 
-Пожалуйста, не забудьте заменить `YOUR_TELEGRAM_BOT_TOKEN` и `YOUR_GOOGLE_SHEET_URL` на реальные значения, а также убедитесь, что у вас есть файл `credentials_API.json` для доступа к Google Sheets API.
+Пожалуйста, не забудьте заменить `TELEGRAM_TOKEN` и `DOC_URL` на реальные значения, а также убедитесь, что у вас есть файл `credentials_API.json` для доступа к Google Sheets API.
 
 Как разрешить доступ и скачать свой credetials.json [сдесь](https://support.google.com/a/answer/7378726?hl=ru)
 
