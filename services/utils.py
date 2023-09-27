@@ -14,6 +14,7 @@ def construct_answer(values: list):
         user_message = LEXICON_RU["error_user"]
     else:
         end_date_value = values[0]
+        user_name_in_sheet = str(values[2])
         balance_value = int(values[1])
         last_digit = balance_value % 10
 
@@ -24,7 +25,8 @@ def construct_answer(values: list):
         else:
             balance_value = f"{balance_value} занятий"
         user_message = (
-            f"🗓 Ваш абонемент заканчивается {end_date_value}\n💃 "
-            f"У Вас осталось {balance_value}"
+        f"👤 Информация для ученика: {user_name_in_sheet}\n"
+        f"🗓 Ваш абонемент заканчивается {end_date_value}\n"
+        f"🧭 У Вас осталось {balance_value}"
         )
     return user_message

@@ -41,6 +41,7 @@ class GoogleTable:
         self,
         data: List[List[Union[str, bool]]],
         search_col: int = 1,
+        name_in_table: str = 2,
         balance_col: int = 4,
         end_date_col: int = 5,
     ) -> Union[List[str], int]:
@@ -49,6 +50,7 @@ class GoogleTable:
         Args:
             data (List[List[Union[str, bool]]]): Данные для поиска в таблице.
             search_col (int): Диапазон поиска по столбцам.
+            name_in_table (str): Имя пользователя в таблице
             balance_col (int): Нормер столбца таблицы с Балансом
             end_date_col (int): Нормер столбца таблицы с Датой окончания действия абонимента
         Returns (List[str]|int):
@@ -64,6 +66,7 @@ class GoogleTable:
         except:
             return -1
         find_cell_row = find_cell.row
+        user_name_in_sheet = wks.get_value((find_cell_row, name_in_table))
         end_date = wks.get_value((find_cell_row, end_date_col))
         balance = wks.get_value((find_cell_row, balance_col))
-        return [end_date, balance]
+        return [end_date, balance, user_name_in_sheet]
