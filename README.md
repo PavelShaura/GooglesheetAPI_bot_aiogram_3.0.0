@@ -33,7 +33,7 @@ log_file.ini- Имя файла .ini для хранения логов.
 
 YOUR_GOOGLE_SHEET_URL - URL вашей Google таблицы для доступа к данным абонементов.
 
-Пожалуйста, не забудьте заменить `TELEGRAM_TOKEN` и `DOC_URL` на реальные значения, а также убедитесь, что у вас есть файл `credentials_API.json` для доступа к Google Sheets API.
+Пожалуйста, не забудьте заменить `TELEGRAM_TOKEN` и ваш `DOC_URL` на реальные значения, а также убедитесь, что у вас есть файл `credentials_API.json` для доступа к Google Sheets API.
 
 Как разрешить доступ и скачать свой credetials.json [сдесь](https://support.google.com/a/answer/7378726?hl=ru)
 
