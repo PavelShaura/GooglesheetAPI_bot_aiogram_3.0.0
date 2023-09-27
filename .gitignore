@@ -1,0 +1,6 @@
+.env
+.idea
+venv
+credentials_API.json
+log_file.ini
+__pycache__pr
