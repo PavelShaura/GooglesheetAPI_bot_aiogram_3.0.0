@@ -1,4 +1,4 @@
-# Telegram бот для предоставления информации о пользовательских абонементах зааписаных в Google Sheets (aiogram, pygsheets)
+# Telegram бот для предоставления информации из Google Sheets (aiogram, pygsheets)
 ![Иллюстрация к проекту](https://github.com/PavelShaura/GooglesheetAPI_bot_aiogram_3.0.0/blob/master/images/chat.png)
 ## Установка
 1. Установите Python 3.x, если он не установлен. [Python.org](https://www.python.org/downloads/)
