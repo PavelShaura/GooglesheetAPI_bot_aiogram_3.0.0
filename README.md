@@ -1,6 +1,9 @@
 # Telegram bot for providing information from Google Sheets (aiogram, pygsheets)
+
 ![Иллюстрация к проекту](https://github.com/PavelShaura/GooglesheetAPI_bot_aiogram_3.0.0/blob/master/images/chat.png)
+
 ![Иллюстрация к проекту](https://github.com/PavelShaura/GooglesheetAPI_bot_aiogram_3.0.0/blob/master/images/sheet_examle.png)
+
 ## Installation
 1. Install Python 3.x if it is not installed. [Python.org](https://www.python.org/downloads/)
 
