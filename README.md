@@ -39,7 +39,7 @@ YOUR_GOOGLE_SHEET_URL - The URL of your Google spreadsheet to access your subscr
 
 Please remember to replace `TELEGRAM_TOKEN` and your `DOC_URL` with real values, and make sure you have a `credentials_API.json` file to access the Google Sheets API.
 
-How to allow access and download your credetials.json [сдесь]([https://support.google.com/a/answer/7378726?hl=ru](https://developers.google.com/sheets/api/quickstart/go?hl=ru)
+How to allow access and download your credetials.json [here]([https://support.google.com/a/answer/7378726?hl=ru](https://developers.google.com/sheets/api/quickstart/go?hl=ru)
 
 
 <div id="header">
