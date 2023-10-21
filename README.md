@@ -41,6 +41,9 @@ Please remember to replace `TELEGRAM_TOKEN` and your `DOC_URL` with real values,
 
 How to allow access and download your credetials.json [сдесь]([https://support.google.com/a/answer/7378726?hl=ru](https://developers.google.com/sheets/api/quickstart/go?hl=ru)
 
+<div id="header" align="center">
+  <img src="[https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif](https://media.giphy.com/media/3b6rWgdpjf0jrvvvZ6/giphy.gif)https://media.giphy.com/media/3b6rWgdpjf0jrvvvZ6/giphy.gif" width="100"/>
+</div>
 
 ## Start
 
@@ -49,6 +52,3 @@ Start the bot, run the following command in the root directory of the project:
    ```bash 
    python bot.py
 
-<div id="header" align="center">
-  <img src="[https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif](https://media.giphy.com/media/3b6rWgdpjf0jrvvvZ6/giphy.gif)https://media.giphy.com/media/3b6rWgdpjf0jrvvvZ6/giphy.gif" width="100"/>
-</div>
