@@ -47,3 +47,5 @@ Start the bot, run the following command in the root directory of the project:
 
    ```bash 
    python bot.py
+
+Questions and suggestions: https://t.me/GcontentPavel
