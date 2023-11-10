@@ -46,8 +46,7 @@ How to allow access and download your credetials.json [here]([https://support.go
   <img src="https://media.giphy.com/media/3b6rWgdpjf0jrvvvZ6/giphy.gif" width="100"/>
 </div>
 
-Questions and suggestions: https://t.me/GcontentPavel
-
+Questions and suggestions: https://t.me/PavelShau
 
 ## Start
 
